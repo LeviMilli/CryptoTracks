@@ -10,7 +10,7 @@ A user based fullstack web application that allows users to update wallet with c
 
 **Tech used:** HTML, CSS, JavaScript, MongoDB, Express
 
-Full CRUD is ustilized in app. Each page is comprosed of react components and uses app context where it makes sense. Most states where set by context and a few function that were more globally used. The database was seeded using Mongo Atlas and node. Each page diplays object from database using arrays methods such as Map and Filter using react states. Auth was done by creating models of users and setting cookies and sessions. Personal recipes were done by references User and Recipe models.
+Full CRUD is ustilized in app. The database used was Mongo Atlas. Each page diplays object from database using arrays methods such as Map and Filter using User models and live api data. Auth was done by creating models of users and setting cookies and sessions. Personal coins were done by references User and Coin models.
 
 ## Optimizations
 Allow additional coins and custom coins to be added and automatically searched with api. Allow users to store other data other than login and pre-selected list of coins.
