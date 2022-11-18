@@ -2,9 +2,9 @@
 
 A user based fullstack web application that allows users to update wallet with current crypto holdings and prices are tracked in real time wtih coin api.
 
+<img height= "200px" src= "https://user-images.githubusercontent.com/107660704/202800613-78c86931-d3f9-47ce-aab3-e0e1cc8dc707.JPG"></>
 
 
-![crypto](https://user-images.githubusercontent.com/107660704/202800613-78c86931-d3f9-47ce-aab3-e0e1cc8dc707.JPG)
 
 ## How It's Made:
 
