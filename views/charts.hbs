@@ -1,0 +1,31 @@
+<canvas  id="myChart"  width="200"  height="200"></canvas>
+
+
+
+<script>
+	const ctx = document.getElementById('myChart').getContext('2d');
+	
+	// The value of 'charLabels' we get from our routes is ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"]
+
+	// the value of 'chartData' we get is [12,19,3,5,2,3]
+	
+
+    const myChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: {{{chartLabels}}},
+            datasets: [{
+                
+                data: {{{chartData}}},
+                 backgroundColor: [
+                    'rgb(255, 99, 132)',
+                    'rgb(54, 162, 235)',
+                    'rgb(255, 205, 86)'
+                ],
+                hoverOffset: 4
+            }]
+        }
+    });
+</script>
+
+<a href="/wallet"><button class="btn btn-dark">Back to Wallet</button></a>

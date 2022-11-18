@@ -1,0 +1,35 @@
+<div class="loginPage">
+  <div class="inLog">
+<table class="table">
+  <thead>
+    <tr>
+
+      <th scope="col">Coin |</th>
+      <th scope="col">Quantity |</th>
+      <th scope="col">Purchased Value |</th>
+      <th scope="col">Current Value |</th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each finalData}}
+      <tr>
+        <td>{{this.coin}}</td>
+        <td>{{this.quantity}}</td>
+        <td>{{this.purchaseValue}}</td>
+        <td>{{this.currentValue}}</td>
+        <td><a href="/edit/{{this._id}}"><button class="btn btn-dark">Edit/Delete</button></a></td>
+      </tr>
+    {{/each}}
+
+  </tbody>
+</table>
+<div>
+
+<a href="/profile"><button class="btn btn-dark">Add More</button></a>
+<a href="/chart"><button class="btn btn-dark">Portfolio Charts</button></a>
+<a href="/logout"><button id="logoutBtn" class="btn btn-dark"> Logout</button></a>
+
+</div>
+</div>
+<img src="https://us.123rf.com/450wm/olgakot19/olgakot191912/olgakot19191200120/135111376-bitcoin-coins-are-a-stack-black-background-with-reflection.jpg?ver=6" alt="">

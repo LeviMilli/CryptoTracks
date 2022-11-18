@@ -1,0 +1,191 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+button {
+  background-color: white;
+
+}
+
+.container-fluid {
+  background-color: black;
+}
+
+select {
+  background-color: #212429 ;
+  color: white;
+  font-family: 'Space Mono', monospace;
+}
+
+
+.navbar {
+  margin-bottom: 20px;
+
+}
+
+.login {
+  margin-top: 20px;
+}
+
+label {
+
+  font-family: 'Space Mono', monospace;
+
+}
+
+#red {
+  background-color: red;
+}
+
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+
+input {
+  background-color:#212429 ;
+  border: gray 2px solid;
+  color: white;
+}
+
+h1 {
+  font-family: 'Space Mono', monospace;
+
+
+}
+
+
+p {
+  font-family: 'Space Mono', monospace;
+}
+
+a {
+  font-family: 'Space Mono', monospace;
+
+
+}
+
+body {
+  background-color: black !important;
+  color: white !important;
+  font-family: 'Space Mono', monospace;
+
+
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #00b7ff;
+}
+
+h1 {
+  color: 15px;
+}
+
+
+tr {
+  color: white;
+  margin-bottom: 30px;
+  
+}
+
+th {
+  margin: 40px 0;
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+
+}
+
+button:hover,
+button:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  background-color: gray;
+}
+
+
+.inLog {
+  display: block;
+  justify-content: center;
+}
+
+
+.profile {
+  margin: 60px 0;
+}
+
+.loginPage {
+  display: flex;
+  justify-content: center;
+}
+
+#myChart {
+  margin: auto;
+  width: 700px !important;
+  height: 700px !important;
+}
+
+
+.frontImg {
+  width: 500px
+}
+
+
+.signupImg {
+  width: 800px;
+  height: 300px;
+}
+
+
+.buttonDiv {
+  display: flex;
+}
+
+
+
+.mainDiv {
+  display: flex;
+  margin-top: 100px;
+  width: auto;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -500px;
+
+}
+
+
+/* .signUp {
+  width: 30%;
+} */
+
+
+#space {
+  margin-right: 25px;
+}
+
+
+#logoutBtn{
+  background-color: #ecd38c ;
+  color: black;
+  font-weight: bold;
+}
+
+.sign {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}

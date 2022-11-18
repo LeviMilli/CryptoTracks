@@ -1,0 +1,30 @@
+<h1>Edit {{data.coin}}</h1>
+<form method="post" action="/edit/{{data._id}}" class="row g-3">
+  <div class="col-md-6">
+    <label class="form-label">Quantity</label>
+    <input
+      value="{{data.quantity}}"
+      name="quantity"
+      type="number"
+      class="form-control"
+      id="name"
+    />
+  </div>
+  <div class="col-md-6">
+    <label class="form-label">Purchased Price</label>
+    <input
+      value="{{data.purchasedPrice}}"
+      name="purchasedPrice"
+      type="number"
+      class="form-control"
+      id="propellers"
+    />
+  </div>
+
+  <div class="col-12">
+    <button type="submit" class="btn btn-dark">Submit</button>
+  </div>
+</form>
+<form method="post" action="/delete/{{data._id}}">
+  <button type="submit" class="btn btn-primary">Delete</button>
+</form>

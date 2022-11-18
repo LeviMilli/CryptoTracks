@@ -1,0 +1,32 @@
+<div class="loginPage">
+<div class="inLog">
+<p>Hello {{loggedInUser.username}}!!</p>
+
+<form class="profile" action="/profile" method="POST">
+  <p>
+    Select one from the given options:
+    <select name="coin">
+      <option value="BTC">BTC</option>
+      <option value="ETH">ETH</option>
+      <option value="SOL">SOL</option>
+
+    </select>
+  </p>
+
+  <input
+    name="purchasedPrice"
+    type="number"
+    step="0.01"
+    placeholder="Enter your price"
+  />
+  <input name="quantity" type="number" placeholder="Enter your quantity" />
+
+  <button class="btn btn-dark">submit</button>
+</form>
+<p id="message"></p>
+
+<a href="/wallet"><button id="space" class="btn btn-dark">Wallet</button></a>
+
+<a href="/logout"><button id="logoutBtn" class="btn btn-dark">logout</button></a>
+</div>
+</div>
