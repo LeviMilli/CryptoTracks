@@ -8,7 +8,7 @@ A user based fullstack web application that allows users to update wallet with c
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, MongoDB, Express
+**Tech used:** HTML, CSS, JavaScript, MongoDB, Express, Tailwind, Node.js
 
 Full CRUD is ustilized in app. The database used was Mongo Atlas. Each page diplays object from database using arrays methods such as Map and Filter using User models and live api data. Auth was done by creating models of users and setting cookies and sessions. Personal coins were done by references User and Coin models.
 
